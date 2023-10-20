@@ -1,6 +1,7 @@
 # RedRecon
-Versão modificada do Khitai para uso do RedTeam - Hub de Recon para os checks iniciais em Pentests web.  
-  
+Versão modificada do Khitai para uso do RedTeam - Testada para uso no Kali Linux.  
+Hub de Recon para os checks iniciais em Pentests web.  
+
 -- Instalação:  
 git clone https://github.com/rafaelbaldasso/RedRecon  
 cd RedRecon  
