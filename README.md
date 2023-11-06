@@ -7,4 +7,7 @@ git clone https://github.com/rafaelbaldasso/RedRecon
 cd RedRecon  
 chmod +x *  
   
-Executar o setup.sh como root para instalar e configurar as ferramentas - na tela do Postfix é só ir avançando com as configs padrão.
+Executar o setup.sh como root para instalar e configurar as ferramentas - na tela do Postfix é só ir avançando com as configs padrão.  
+
+Executar a ferramenta como root (sudo su) ou com o sudo na frente do comando:  
+Ex.: sudo ./redrecon.sh https://site.com
