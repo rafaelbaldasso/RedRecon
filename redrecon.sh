@@ -39,7 +39,7 @@ else
                 curl -I $target -L -k -X OPTIONS -s --connect-timeout 15
                 echo;echo "===========================================================================";echo
                 echo -e "\033[38;2;220;20;60m${bold}>>> HTTP TRACE\033[m"
-                echo;echo -e '\033[38;2;0;255;255mcurl -k -X TRACE '$target' -L -s -I -H "Cookie: teste" --connect-timeout 15\033[m';echo
+                echo;echo -e '\033[38;2;0;255;255mcurl -k -X TRACE '$target' -L -s -I -H "Cookie: test" --connect-timeout 15\033[m';echo
                 curl -k -X TRACE $target -L -s -I -H "Cookie: test" --connect-timeout 15
                 echo;read -p $'\033[38;2;255;215;0m< Press ENTER to continue >\033[m'; exec $0 $1
                 ;;
