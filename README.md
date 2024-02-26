@@ -3,7 +3,7 @@
 
 ### # Instalação:  
 ```
-git clone https://github.com/rafaelbaldasso/RedRecon; cd RedRecon; chmod +x *; sudo ./setup.sh
+git clone https://github.com/rafaelbaldasso/RedRecon.git; cd RedRecon; chmod +x *; sudo ./setup.sh
 ```
   
 > Na tela do Postfix basta ir avançando com as configs padrão.  
